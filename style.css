@@ -50,14 +50,18 @@
        height: 120px;
        width: 120px;
        padding: 20px;
-       border: 2px solid black;
+       background-color: white;
    }
-   img:nth-child(odd){
+   .images img:nth-child(odd){
        background-color: blue;
    }
-   img:nth-child(even)
+   .images img:nth-child(even)
    {
        background-color: red;
+   }
+   .images img 
+   {
+    border: 2px solid black;
    }
    .head {
        width: 100%;
