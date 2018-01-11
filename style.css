@@ -42,3 +42,33 @@
     margin-left: 15px;
     margin-top: 10px;
    }
+   .displaying_blocks 
+   {
+    background-color: #9aa069;
+   }
+   img {
+       height: 120px;
+       width: 120px;
+       padding: 20px;
+       border: 2px solid black;
+   }
+   img:nth-child(odd){
+       background-color: blue;
+   }
+   img:nth-child(even)
+   {
+       background-color: red;
+   }
+   .head {
+       width: 100%;
+       text-align: center;
+       margin: 25px 0px 10px 0px;
+   }
+   .head img, .head h1 {
+       display: inline;
+   }
+   .images {
+       width: 80%;
+       margin: 0 auto;
+       text-align: center;
+   }
